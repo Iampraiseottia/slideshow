@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow | By PRINZO</title>
+    <link rel="stylesheet" href="slideshow.css">
+</head>
+<body>
+    <div id="Slideshow">
+        <div class="Slideshow-container fade">
+            <div class="Slideshow-number"> 1 / 3</div>
+            <img src="img/airplane.jpg" class="Slideshow-img">
+            <div class="Slideshow-text">WOW!!!, Plane flying</div>
+        </div>
+
+        <div class="Slideshow-container fade">
+            <div class="Slideshow-number"> 2 / 3</div>
+            <img src="img/helicopta4.jpg" class="Slideshow-img">
+            <div class="Slideshow-text">What a view from here</div>
+        </div>
+
+        <div class="Slideshow-container fade">
+            <div class="Slideshow-number"> 3 / 3</div>
+            <img src="img/wonderful.jpg" class="Slideshow-img">
+            <div class="Slideshow-text">These guys are genuises</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class="next" onclick="plusSlides(1)">&#10095</a>
+    </div>
+
+    <div style="text-align: center;">
+        <div class="dot" onclick="currentSlide(1)"></div>
+        <div class="dot" onclick="currentSlide(2)"></div>
+        <div class="dot" onclick="currentSlide(3)"></div>
+    </div>
+
+    <script src="slideshow.js"></script>
+
+</body>
+</html>
